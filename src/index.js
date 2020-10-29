@@ -30,7 +30,8 @@ const defaultState = {
       type: "game",
       poster:"https://m.media-amazon.com/images/M/MV5BZDE2ZDFhMDAtMDAzZC00ZmY3LThlMTItMGFjMzRlYzExOGE1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
     }
-  ]
+  ],
+  filter: 'all',
 }
 
 const store = createStore(

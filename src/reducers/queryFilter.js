@@ -1,12 +1,12 @@
-import { QUERY_FILTER } from '../actions/index'
+import { QUERY_FILTER } from '../actions/index';
 
-const queryFilterReducer = (state='', action) => {
-  switch(action.type){
+const queryFilterReducer = (state = '', action) => {
+  switch (action.type) {
     case QUERY_FILTER:
-      return action.query
+      return action.query;
     default:
       return state;
   }
-}
+};
 
 export default queryFilterReducer;
